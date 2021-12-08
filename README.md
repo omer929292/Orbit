@@ -19,14 +19,11 @@ Make an animated window.
 
 ## Features
 
-* Make an animated window
-* Set height, width and color to window
-* Set a border to window as well as its width, color and radius
-* Set a position within scaffold using alignment
-* Set animation type (Sizing or scaling)
-* Set duration to animation
-* Add items to the window by using child property. Control their position within the window using Stack, Row, etc...
-* Open and close the window by manipulating isReverse property
+* Set an object to orbit
+* Set duration to complete on circle
+* Set radius to the orbit
+* Set a circle to be circled by the orbitting object (Optional)
+* Start and stop the animation by manipulating repeat property
 
 
 ## Usage
