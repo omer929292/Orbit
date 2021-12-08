@@ -56,9 +56,7 @@ Here are the accepted parameters :
 | child  | Widget | null | The orbitting object| 
 | circle  | Draw_Circle? | null | A circle that's circled by the object| 
 | repeat | bool | true | Status of animation (Active/Unactive) | 
-
-//here
-| rotate  | double | Duration(seconds: 1) | Duration of animated opening and closing | 
+| rotate  | double | 0 | Object's initial rotation | 
 
 
 
