@@ -12,37 +12,32 @@ and the Flutter guide for
 -->
 
 
-## Animated_Window
+## Orbit
 
-Make an animated window.
+Make an object to orbit around scaffold's center
 
 
 ## Features
 
 * Set an object to orbit
-* Set duration to complete on circle
+* Set duration to complete one circle
 * Set radius to the orbit
 * Set a circle to be circled by the orbitting object (Optional)
 * Start and stop the animation by manipulating repeat property
-
+* Set initial rotation to the orbitting object
 
 ## Usage
 
 ```
-Animated_Window(
-      height: 200,
-      width: MediaQuery.of(context).size.width,
-      color: Colors.purple,
-      borderColor: Colors.black,
-      borderWidth: 5,
-      borderRadius: BorderRadius.only(topLeft:Radius.circular(30) ,topRight:Radius.circular(30) ,bottomLeft:Radius.circular(0) ,bottomRight:Radius.circular(0)),
-      alignment: Alignment.bottomCenter,
-      animationDuration: Duration(seconds: 1),
-      isReverse: false,
-      scale: false,
-      child: Center(child: Text("Window"),
-      ),
-    );
+
+ Orbit(
+   rotate: 10,
+   repeat: true,
+   completeDuration: Duration(seconds: 3),
+   radius: 150,
+   circle: Draw_Circle(arcColor: Colors.green, arcWidth: 5, radius: 150, circleColor: Colors.brown),
+   child: Image.asset('images/rocket1.png',height: 30, width: 30))
+
 
 ```
 
