@@ -14,7 +14,7 @@ and the Flutter guide for
 
 ## Orbit
 
-Make an object to orbit around scaffold's center
+Make an object to orbit scaffold's center
 
 
 ## Features
