@@ -51,17 +51,15 @@ Here are the accepted parameters :
 
 | Name  | Type | Default Value | Description | 
 | ------------- | ------------- | ------------- | ------------- | 
-| height  | double | null | Window's height | 
-| width  | double | null  | Window's width |
-| color  | Color | null  | Window's color  | 
-| borderColor  | Color | Colors.transparent  | Width of window's border| 
-| borderWidth  | double | 0 | Width of window's border| 
-| borderRadius  | BorderRadius | BorderRadius.zero | Radius of window's border| 
-| child | Widget | null | Window's content | 
-| animationDuration  | Duration | Duration(seconds: 1) | Duration of animated opening and closing | 
-| isReverse  | bool | false | Is animation reverse (False=open, true=close)| 
-| alignment  | Alignment | Alignment(0,0) | Window's position within scaffold | 
-| scale | bool | false | If true, animation type is scaling. Else, it is sizing. | 
+| completeDuration  | Duration | null  | Time to complete one circle  | 
+| radius  | double | null  | Orbit's radius| 
+| child  | Widget | null | The orbitting object| 
+| circle  | Draw_Circle? | null | A circle that's circled by the object| 
+| repeat | bool | true | Status of animation (Active/Unactive) | 
+
+//here
+| rotate  | double | Duration(seconds: 1) | Duration of animated opening and closing | 
+
 
 
 
