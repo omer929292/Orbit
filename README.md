@@ -25,6 +25,7 @@ Make an object to orbit scaffold's center
 * Set a circle to be circled by the orbitting object (Optional)
 * Start and stop the animation by manipulating repeat property
 * Set initial rotation to the orbitting object
+* Note that orbit is centralized, and cannot be flexibily positioned across the scaffold
 
 ## Usage
 
