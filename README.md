@@ -63,8 +63,7 @@ Here are the accepted parameters :
 
 
 ## example
-
-<img src="assets/FinalOrbit.gif" width="300" height="600">
+<img src="assets/OrbitFinal.gif" width="300" height="600">
 
 
 
